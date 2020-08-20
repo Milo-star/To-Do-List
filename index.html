@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>To-do list</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+</head>
+
+<body>
+
+    <!-- tâches -->
+    <h1 class="container-top">To-do list</h1>
+    <main>
+        <section>
+            <div>
+                <h2 style="color: green;" class="box">A faire</h2>
+            </div>
+
+            <div class="element-box">
+                <h3>Laver ma chambre</h3>
+                <p class="description">Apirer, ranger, poussière</p>
+                <button style="background-color: green;" class="texte-button">A faire</button>
+                <button style="background-color: #FF7C00;" class="texte-button">En cours</button>
+                <button style="background-color: #e74a3b;" class="texte-button">Finis</button>
+                <button style="background-color: red;" class="texte-button">Supprimer</button>
+            </div>
+            <p class="nombres">Nombre(s) de tâche(s): 1</p>
+        </section>
+        <section>
+            <div>
+                <h2 style="color: #FF7C00;" class="box">En cours</h2>
+            </div>
+
+            <div class="element-box">
+
+                <h3>Faire le site to-do list</h3>
+                <p class="description">Suivre le cahier des charges</p>
+                <button style="background-color: green;" class="texte-button">A faire</button>
+                <button style="background-color: #FF7C00;" class="texte-button">En cours</button>
+                <button style="background-color: #e74a3b;" class="texte-button">Finis</button>
+                <button style="background-color: red;" class="texte-button">Supprimer</button>
+            </div>
+            <div class="element-box">
+
+                <h3>Faire le site to-do list</h3>
+                <p class="description">Suivre le cahier des charges</p>
+                <button style="background-color: green;" class="texte-button">A faire</button>
+                <button style="background-color: #FF7C00;" class="texte-button">En cours</button>
+                <button style="background-color: #e74a3b;" class="texte-button">Finis</button>
+                <button style="background-color: red;" class="texte-button">Supprimer</button>
+            </div>
+
+            <p class="nombres">Nombre(s) de tâche(s): 2</p>
+        </section>
+
+        <section>
+            <div>
+                <h2 style="color: red;" class="box">Finis</h2>
+            </div>
+
+            <div class="element-box">
+
+                <h3>Tondre</h3>
+                <p class="description" class="texte-button">Vider le bac de la tondeuse</p>
+                <button style="background-color: green;" class="texte-button">A faire</button>
+                <button style="background-color: #FF7C00;" class="texte-button">En cours</button>
+                <button style="background-color: #e74a3b;" class="texte-button">Finis</button>
+                <button style="background-color: red;" class="texte-button">Supprimer</button>
+            </div>
+
+            <p class="nombres">Nombre(s) de tâche(s): 1</p>
+        </section>
+    </main>
+
+
+    <!-- Création de tâche -->
+
+    <div class="container-down">
+        <h2>Ajouter une tâche</h2>
+
+        <form class="form-group">
+            <input id='titre' type="text" placeholder="Titre de la tâche">
+
+            <textarea id="desc" name="desc" rows="5" cols="33">Description de la tâche</textarea>
+
+            <input type="date">
+
+            <button class="add" href="#">Créer</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+        <p class="footer-name">Site développer par <a href="https://github.com/Qualeex">Milo</a></p>
+    </footer>
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

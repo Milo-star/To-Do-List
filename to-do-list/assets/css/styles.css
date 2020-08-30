@@ -102,6 +102,7 @@ button {
     margin: 30px 300px;
     padding: 20px;
     border-radius: 8px;
+    min-width: 200px;
 }
 
 /* Ajout de tâche */
